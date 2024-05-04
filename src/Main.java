@@ -22,6 +22,7 @@ public class Main {
         int[] numbs = {3, 6, 9, 4, 2};
         int target = 11;
         int[] result = twoSum(numbs, target);
+        assert result != null;
         System.out.println(result[0] + "," + result[1]);
     }
 }
